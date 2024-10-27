@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import A from './components/A';
 
 function App() {
   console.log('khachar khachar');
@@ -10,21 +11,23 @@ function App() {
   console.log(`API URL: ${apiUrl}`);
   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 1
-        </a>
-      </header>
+    <div>
+          
+        {/* <A fname = 'Hari' lname = 'Prasad'/> */}
+        {/* <A applyStyle = {false}/> Note that boolean is paased differently than string */}
+        From App.js h1v
+        <A/>
+        {/* <Aparent/> */}
+        {/* <My30/> */}
+        {/* ----------below can be deleted------------------------------------------------ */}
+    {/* // <div className="App"> */}
+      {/* <header className="App-header"> */}
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        
+    
+        {/* <Aparent/> */}
+        {/* <My11Parent/> */}
+      {/* </header> */}
     </div>
   );
 }
