@@ -9,8 +9,15 @@ class My26 extends PureComponent{
         </div>
 
         //Pure components only re renders the class components when there is a difference
-        //in shallow comparision of propos and state. This results in performance improvement.
+        //in shallow comparision of props and state. This results in performance improvement.
         //This works only in class component
+        //It is recommended to use regular components unless there are performance issues.
+
+        /**
+         * With the shift to functional components and React Hooks, 
+         * React.memo has become a more popular and simpler way to optimize functional components
+         * 
+         */
     }
 }
 

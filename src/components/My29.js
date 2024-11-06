@@ -8,4 +8,8 @@ function My29({name}){
     </div>
 }
 
-export default React.memo(My29) //React.memo is introduced in version 16.6
+export default React.memo(My29) //React.memo(My29) is a higher order component
+//React.memo is introduced in version 16.6
+// So in package.json, libraries should be equal or higher. e.g-
+// "react": "^18.3.1",
+// "react-dom": "^18.3.1",

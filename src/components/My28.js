@@ -25,7 +25,7 @@ class My28 extends Component{
             Parent Component
             {/* <My26 name = {this.state.name} />
             <My27 name = {this.state.name} /> */}
-            <My29 name={this.state.name}/>
+            <My29 name={this.state.name}/> {/* Memo component */}
         </div>
     }
 }
