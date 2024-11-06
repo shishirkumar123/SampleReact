@@ -17,14 +17,14 @@ class My30 extends Component{
     }
 
     componentDidMount(){
-        this.inputRef.current.focus() //you can see details of current object in console
-        console.log(this.inputRef)
-
-        //old way
+        //new way
         // if(this.cbRef){ //null check
         //     this.cbRef.focus()
-        // } 
+        // }
 
+        //old way
+        this.inputRef.current.focus() //you can see details of current object in console
+        console.log(this.inputRef)
     }
 
     clickHandler = () => {
