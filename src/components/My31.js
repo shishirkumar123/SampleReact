@@ -7,13 +7,13 @@ class My31 extends Component{
         this.componentRef = React.createRef()
     }
 
-    clickHandler = () => { //This syntext binds. No need to explicitely bind
+    clickHandler = () => { //This syntax binds. No need to explicitely bind
         this.componentRef.current.focusInput() //focusInput defined in child
     }
 
     render(){
         return <div>
-            <My31_1 ref = {this.componentRef} />
+            { <My31_1 ref = {this.componentRef} /> /*Refs can be attached to class component only */}
             <button onClick={this.clickHandler}>Focus</button>
         </div>
     }
