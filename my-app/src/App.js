@@ -41,7 +41,7 @@ function App() {
     <div>
         From App.js
         {/* <My5 fname='saki' lname='aa paas aa'/>   */}
-        {/* <Practice/> */}
+        <Practice/>
         {/* <A applyStyle = {false}/> Note that boolean is paased differently than string */}
         {/* <A/> */}
         {/* <Aparent/> */}
@@ -54,10 +54,10 @@ function App() {
         {/* <Provider value = "John DDDD">
           <My39Deep/>
         </Provider> */}
-        <Provider value = "John XXXX">
+        {/* <Provider value = "John XXXX">
           <My40Deep/>
         </Provider>
-        
+         */}
         
         {/* ----------below can be deleted------------------------------------------------ */}
     {/* // <div className="App"> */}

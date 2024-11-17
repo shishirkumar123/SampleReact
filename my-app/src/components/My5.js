@@ -9,4 +9,14 @@ const My5 = props => {
     )      
 }
 
+//If you do it through class component, then need to use 'this as well-
+/*
+
+class PChild extends Component{
+    render(){
+        return <div>From Child {this.props.fName}</div>
+    }
+}
+*/
+
 export default My5
